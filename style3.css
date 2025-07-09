@@ -1,0 +1,143 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+
+.form-option {
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    margin-bottom: 5px;
+}
+
+.form-option:last-child {
+    border-bottom: none;
+}
+
+
+.icon-container {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+    border: 2px solid;
+    background-color: #fff;
+}
+
+
+.general-forms .icon-container {
+    border-color: orange;
+}
+
+.embedded-forms .icon-container {
+    border-color: blue;
+}
+
+.subscriber-popup .icon-container {
+    border-color: red;
+}
+
+.icon-placeholder1 {
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+    color: gray;
+
+}
+
+.icon-placeholder2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+    color: gray;
+
+}
+
+.icon-placeholder3 {
+    position: absolute;
+    top: 41%;
+    left: 42%;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+    color: gray;
+
+}
+
+.general-forms .icon-placeholder {
+    color: orange;
+    font-weight: bold;
+}
+
+.embedded-forms .icon-placeholder {
+    color: blue;
+    font-weight: bold;
+}
+
+.subscriber-popup .icon-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+
+.content-area {
+    float: left;
+    width: 600px;
+    padding-right: 10px;
+}
+
+.content-area h3 {
+    margin: 0 0 5px 0;
+    font-size: 18px;
+    color: black;
+}
+
+.content-area p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+
+.select-button-container {
+    float: right;
+    padding-top: 10px;
+}
+
+.select-button {
+    background-color: white;
+    color: gray;
+    border: 1px solid #ccc;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.select-button:hover {
+    background-color: #e0e0e0;
+    border-color: #bbb;
+}
