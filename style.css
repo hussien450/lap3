@@ -1,0 +1,99 @@
+body {
+    background-image: url(images/background.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.outer {
+    position: relative;
+    border: 10px groove gray;
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 90px auto;
+    width: 80%;
+    height: 85%;
+
+}
+
+#fimg2 {
+    position: absolute;
+    top: 82px;
+    left: 67%;
+}
+
+.fimg {
+    position: absolute;
+    top: 82px;
+    left: 23%;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+}
+
+h1 {
+    width: 350px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 45px;
+
+}
+
+#inner1 {
+    background-color: pink;
+    border: 5px solid gray;
+    margin: 0 auto;
+    margin: 50px 50px 0 50px;
+}
+
+.inner2 {
+    background-color: pink;
+    border: 5px solid gray;
+    margin: 20 50;
+}
+
+.inner2>a {
+    color: red;
+    font-size: 27px;
+}
+
+.inner3 {
+    background-color: pink;
+    border: 5px solid gray;
+    margin: 20px 50px;
+    text-align: left;
+    padding-left: 200px;
+    font-family: italic;
+}
+
+.inner3>h2 {
+    text-decoration: underline;
+}
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+}
+.inner3>a {
+    color: red;
+    font-size: 20px;
+}
+.calc {
+    margin-right: 5px;
+    width: 40px;
+}
+#footer {
+    background-color: pink;
+    margin: 5px 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
