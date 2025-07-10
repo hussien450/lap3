@@ -1,0 +1,40 @@
+.container{
+    width: 65%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid gray;
+}
+.outerT{
+    background-color: gray;
+}
+.frow{
+    background-color: #414a4c;
+}
+.tc{
+    color: cyan;
+}
+.cyanT{
+    color: cyan;
+}
+.cyan-b{
+    background-color: cyan;
+}
+.black-b{
+    background-color: black;
+    color: white;
+}
+span{
+    color: cyan;
+}
+.diff{
+    background-color: gray;
+}
+.tcenter{
+    text-align: center;
+    color: white;
+}
+.tcenter>a{
+    background-color: cyan;
+    color: black;
+    padding: 1px 10px;
+}

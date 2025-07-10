@@ -1,0 +1,24 @@
+.darkred {
+    color: darkred;
+}
+
+.darkgreen {
+    color: darkgreen;
+}
+
+.green {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}
+
+.margin {
+    margin: 0px auto;
+}
+
+.footer {
+    font-size: 20px;
+    font-weight: bold;
+}
