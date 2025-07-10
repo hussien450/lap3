@@ -1,0 +1,381 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png');
+}
+
+.header-banner {
+    background-image: url('images/rancid_banner.png');
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+}
+
+.header-banner .logo {
+    height: 40px;
+}
+
+.movie-title {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px 0px #999999;
+    margin: 20px 0;
+    color: #333;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    border: 4px solid gray;
+    border-radius: 10px;
+
+}
+
+.left-column {
+    width: 550px;
+    background-color: white;
+    padding: 20px;
+}
+
+.score-box {
+    border: 2px solid gray;
+    background-color: darkgreen;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    
+}
+
+.score-box img {
+    float: left;
+    width: 70px;
+
+}
+
+.score-box span {
+    position: absolute;
+    left: 30%;
+    top: 175px;
+}
+
+.score-box .fresh-icon {
+    height: 50px;
+}
+
+
+.score-box .score {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+}
+
+.score-box .reviews-total {
+    font-size: 8pt;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.review-section {
+    text-align: center;
+    height: 100%;
+}
+
+.review-item {
+    width: 250px;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 10px;
+
+
+}
+
+.review-item .quote-icon {
+    float: left;
+    margin-right: 5px;
+    margin-top: -5px;
+    height: 20px;
+}
+
+.review-item p {
+    display: inline;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+
+.review-item .critic-icon {
+    height: 16px;
+}
+
+
+.review-item-right {
+    width: 250px;
+    background-color: white;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    float: right;
+
+
+}
+
+.review-item-right .quote-icon {
+    float: left;
+    margin-left: 2px ;
+    margin-right: 5px;
+    margin-top: 2px;
+    height: 20px;
+}
+
+.review-item-right p {
+    display: inline;
+    font-size: 10pt;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+
+.review-item-right .critic-icon {
+    height: 16px;
+}
+
+
+.right-column {
+    width: 350px;
+    background-color: #EEEEEE;
+    padding: 20px;
+}
+
+
+
+.right-column .review-item {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+.general-overview {
+    width: 250px;
+    background-color: #A2B964;
+    padding: 20px;
+    color: black;
+    font-size: 10pt;
+}
+
+.general-overview h2 {
+    font-size: 14pt;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: white;
+    text-shadow: 1px 1px 0px #333;
+}
+
+.general-overview .movie-poster {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border: 4px solid gray;
+}
+
+.general-overview dl {
+    margin: 0;
+    padding: 0;
+}
+
+.general-overview dt {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+.general-overview dd {
+    margin-left: 0;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.footer {
+    width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 10pt;
+    color: #333;
+
+}
+
+.footer .validation-icons {
+    text-align: center;
+   
+}
+
+.footer .w3c-icon {
+    height: 30px;
+}
+
+.container {
+    display: block;
+}
+
+.left-column,
+.right-column,
+.general-overview {
+    float: left;
+}
+
+.left-column {
+    width: 550px;
+}
+
+.general-overview {
+    width: 350px;
+}
+
+.right-column {
+    display: none;
+}
+
+
+
+.left-column .review-section {
+    text-align: center;
+    height: 100%;
+}
+
+.left-column .review-item {
+    width: 48%;
+    margin-bottom: 15px;
+    display: inline-block;
+    float: left;
+}
+
+
+
+
+.general-overview {
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.score-box {
+
+    text-align: center;
+}
+
+.score-box .fresh-icon {
+    height: 50px;
+
+}
+
+.score-box .score {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+li{
+    padding-left: 20px;
+}
+
+.score-box .reviews-total {
+    font-size: 8pt;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+
+.review-item .quote-icon {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.review-item p {
+    display: inline;
+}
+
+
+
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border: 4px solid gray;
+    border-radius: 0;
+    display: block;
+}
+
+.left-column {
+    width: 650px;
+    float: left;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.general-overview {
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 10pt;
+}
+
+.footer {
+    width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 10pt;
+    color: #333;
+
+}
+.reviewer-critic{
+    float: left;
+    width: 400px;
+    
+}
+.reviewer-critic img{
+   width: 30px;
+ 
+}
+.reviewer-critic p{
+    display: inline;
+    margin: 0 100px;
+    font-size: 14px;
+    float: right;
+}
+.reviewer-critic span{
+   
+}
